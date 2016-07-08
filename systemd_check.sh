@@ -1,6 +1,6 @@
 #!/bin/bash
 
-check_services='dnsmasq named haproxy ocserv openvpn@server openvpn@udp53 pptpd railgun-blockip railgun-network railgun-ports railgun-traffic shadowsocks-libev-manager squid strongswan xl2tpd'
+check_services='dnsmasq named haproxy ocserv openvpn@server openvpn@udp53 pptpd railgun-blockip railgun-network railgun-ports railgun-traffic shadowsocks-libev-manager@config squid strongswan xl2tpd'
 
 flag=0
 for service in $check_services
